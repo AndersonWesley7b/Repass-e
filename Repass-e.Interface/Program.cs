@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Repass_e.Infrastructure.DataContext;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddDbContext<AppDataContext>(options =>
+    options.UseInMemoryDatabase("Database"));
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
