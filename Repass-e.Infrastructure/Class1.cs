@@ -1,4 +1,4 @@
-﻿namespace Repass_e.Domain
+﻿namespace Repass_e.Infrastructure
 {
     public class Class1
     {
