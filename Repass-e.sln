@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repass-e.Interface", "Repass-e.Interface\Repass-e.Interface.csproj", "{AF8ADC3D-431D-4BC3-893F-B6890B88E563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repass-e.Interface", "Repass-e.Interface\Repass-e.Interface.csproj", "{AF8ADC3D-431D-4BC3-893F-B6890B88E563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repass-e.Domain", "Repass-e.Domain\Repass-e.Domain.csproj", "{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AF8ADC3D-431D-4BC3-893F-B6890B88E563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8ADC3D-431D-4BC3-893F-B6890B88E563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8ADC3D-431D-4BC3-893F-B6890B88E563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
