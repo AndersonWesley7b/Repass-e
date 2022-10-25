@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repass-e.Interface", "Repass-e.Interface\Repass-e.Interface.csproj", "{AF8ADC3D-431D-4BC3-893F-B6890B88E563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repass-e.Domain", "Repass-e.Domain\Repass-e.Domain.csproj", "{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repass-e.Domain", "Repass-e.Domain\Repass-e.Domain.csproj", "{E9A8B091-B880-4126-AAF5-4A4AFA6D1AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repass-e.Infrastructure", "Repass-e.Infrastructure\Repass-e.Infrastructure.csproj", "{38D74A01-D560-4F71-81DB-CA244C5812F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repass-e.Infrastructure", "Repass-e.Infrastructure\Repass-e.Infrastructure.csproj", "{38D74A01-D560-4F71-81DB-CA244C5812F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repass-e.Services", "Repass-e.Services\Repass-e.Services.csproj", "{15D2729B-E43A-4392-8514-83E26D4D8ED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{38D74A01-D560-4F71-81DB-CA244C5812F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D74A01-D560-4F71-81DB-CA244C5812F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D74A01-D560-4F71-81DB-CA244C5812F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D2729B-E43A-4392-8514-83E26D4D8ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D2729B-E43A-4392-8514-83E26D4D8ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D2729B-E43A-4392-8514-83E26D4D8ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D2729B-E43A-4392-8514-83E26D4D8ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

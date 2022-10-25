@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Repass-e.Infrastructure\Repass-e.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
