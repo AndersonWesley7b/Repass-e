@@ -15,8 +15,4 @@
     <ProjectReference Include="..\Repass-e.Domain\Repass-e.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Persistence\Repositories\Contract\" />
-  </ItemGroup>
-
 </Project>

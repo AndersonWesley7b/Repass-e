@@ -34,10 +34,22 @@ namespace Repass_e.Infrastructure.Persistence.Repositories
         public virtual void MassDelete(List<TEntity> entities)
         {
             _dbSet.RemoveRange(entities);
+            _context.SaveChanges();
         }
         public virtual void Add(TEntity entity)
         {
-            _dbSet.Add(entity); 
+            _dbSet.Add(entity);
+            _context.SaveChanges();
+        }
+        public void Edit(TEntity entity)
+        {
+            _context.Entry(entity).State = EntityState.Modified;
+            _context.SaveChanges();
+        }
+        public void MassAdd(List<TEntity> entities)
+        {
+            _dbSet.AddRange(entities);
+            _context.SaveChanges();
         }
     }
 }
